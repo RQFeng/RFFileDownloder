@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFBD965E1E9535320054328E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CFBD965D1E9535320054328E /* main.m */; };
+		CFBD96611E9535320054328E /* RFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CFBD96601E9535320054328E /* RFAppDelegate.m */; };
+		CFBD96641E9535320054328E /* RFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFBD96631E9535320054328E /* RFViewController.m */; };
+		CFBD96671E9535320054328E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFBD96651E9535320054328E /* Main.storyboard */; };
+		CFBD96691E9535320054328E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFBD96681E9535320054328E /* Assets.xcassets */; };
+		CFBD966C1E9535320054328E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFBD966A1E9535320054328E /* LaunchScreen.storyboard */; };
+		CFBD96771E9538680054328E /* RFFileDownLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = CFBD96761E9538680054328E /* RFFileDownLoader.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CFBD96591E9535320054328E /* RFFileDownloder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RFFileDownloder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFBD965D1E9535320054328E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CFBD965F1E9535320054328E /* RFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RFAppDelegate.h; sourceTree = "<group>"; };
+		CFBD96601E9535320054328E /* RFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFAppDelegate.m; sourceTree = "<group>"; };
+		CFBD96621E9535320054328E /* RFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RFViewController.h; sourceTree = "<group>"; };
+		CFBD96631E9535320054328E /* RFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFViewController.m; sourceTree = "<group>"; };
+		CFBD96661E9535320054328E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFBD96681E9535320054328E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFBD966B1E9535320054328E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CFBD966D1E9535320054328E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFBD96751E9538680054328E /* RFFileDownLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFFileDownLoader.h; sourceTree = "<group>"; };
+		CFBD96761E9538680054328E /* RFFileDownLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFFileDownLoader.m; sourceTree = "<group>"; };
+		CFBD96791E953D500054328E /* RFFileDownLoaderProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RFFileDownLoaderProtocol.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFBD96561E9535320054328E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFBD96501E9535320054328E = {
+			isa = PBXGroup;
+			children = (
+				CFBD965B1E9535320054328E /* RFFileDownloder */,
+				CFBD965A1E9535320054328E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFBD965A1E9535320054328E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFBD96591E9535320054328E /* RFFileDownloder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFBD965B1E9535320054328E /* RFFileDownloder */ = {
+			isa = PBXGroup;
+			children = (
+				CFBD96741E95356F0054328E /* DownLoader */,
+				CFBD965F1E9535320054328E /* RFAppDelegate.h */,
+				CFBD96601E9535320054328E /* RFAppDelegate.m */,
+				CFBD96621E9535320054328E /* RFViewController.h */,
+				CFBD96631E9535320054328E /* RFViewController.m */,
+				CFBD96651E9535320054328E /* Main.storyboard */,
+				CFBD96681E9535320054328E /* Assets.xcassets */,
+				CFBD966A1E9535320054328E /* LaunchScreen.storyboard */,
+				CFBD966D1E9535320054328E /* Info.plist */,
+				CFBD965C1E9535320054328E /* Supporting Files */,
+			);
+			path = RFFileDownloder;
+			sourceTree = "<group>";
+		};
+		CFBD965C1E9535320054328E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFBD965D1E9535320054328E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CFBD96741E95356F0054328E /* DownLoader */ = {
+			isa = PBXGroup;
+			children = (
+				CFBD96751E9538680054328E /* RFFileDownLoader.h */,
+				CFBD96761E9538680054328E /* RFFileDownLoader.m */,
+				CFBD96791E953D500054328E /* RFFileDownLoaderProtocol.h */,
+			);
+			path = DownLoader;
+			sourceTree = "<group>";
+			usesTabs = 0;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFBD96581E9535320054328E /* RFFileDownloder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFBD96701E9535320054328E /* Build configuration list for PBXNativeTarget "RFFileDownloder" */;
+			buildPhases = (
+				CFBD96551E9535320054328E /* Sources */,
+				CFBD96561E9535320054328E /* Frameworks */,
+				CFBD96571E9535320054328E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RFFileDownloder;
+			productName = RFFileDownloder;
+			productReference = CFBD96591E9535320054328E /* RFFileDownloder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFBD96511E9535320054328E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RF;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = RQFeng;
+				TargetAttributes = {
+					CFBD96581E9535320054328E = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 7A36VYS92N;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CFBD96541E9535320054328E /* Build configuration list for PBXProject "RFFileDownloder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFBD96501E9535320054328E;
+			productRefGroup = CFBD965A1E9535320054328E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFBD96581E9535320054328E /* RFFileDownloder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFBD96571E9535320054328E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFBD966C1E9535320054328E /* LaunchScreen.storyboard in Resources */,
+				CFBD96691E9535320054328E /* Assets.xcassets in Resources */,
+				CFBD96671E9535320054328E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFBD96551E9535320054328E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFBD96641E9535320054328E /* RFViewController.m in Sources */,
+				CFBD96611E9535320054328E /* RFAppDelegate.m in Sources */,
+				CFBD965E1E9535320054328E /* main.m in Sources */,
+				CFBD96771E9538680054328E /* RFFileDownLoader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CFBD96651E9535320054328E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFBD96661E9535320054328E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CFBD966A1E9535320054328E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFBD966B1E9535320054328E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFBD966E1E9535320054328E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFBD966F1E9535320054328E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFBD96711E9535320054328E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7A36VYS92N;
+				INFOPLIST_FILE = RFFileDownloder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = liveDemo.RFFileDownloder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CFBD96721E9535320054328E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7A36VYS92N;
+				INFOPLIST_FILE = RFFileDownloder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = liveDemo.RFFileDownloder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFBD96541E9535320054328E /* Build configuration list for PBXProject "RFFileDownloder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFBD966E1E9535320054328E /* Debug */,
+				CFBD966F1E9535320054328E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFBD96701E9535320054328E /* Build configuration list for PBXNativeTarget "RFFileDownloder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFBD96711E9535320054328E /* Debug */,
+				CFBD96721E9535320054328E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFBD96511E9535320054328E /* Project object */;
+}
